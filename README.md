@@ -18,4 +18,4 @@ response = requests.post(url, data=body)
 response.json()
 ```
 
-- app.R: web application built with R shiny. It is hosted on an AWS EC2 instance with a public IP address which is assoicated with the domain name http://www.peiqing-zhang.info and talks with the deep learning model via API. In the web App, you can type (or copy and paste) the review to make the prediction, or upload the review as .txt file to make the prediction.
+- app.R: web application built with R shiny. It is hosted on an AWS EC2 instance with a public IP address which is assoicated with the domain name http://www.peiqing-zhang.info (no longer in use - commented by Peiqing on 27.05.2024) and talks with the deep learning model via API. In the web App, you can type (or copy and paste) the review to make the prediction, or upload the review as .txt file to make the prediction.
